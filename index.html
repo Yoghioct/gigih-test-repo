@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="\week1 - homework 2\assets\css\stylesheets.css">
+    <title>Homework Submission - 01-Week 1</title>
+</head>
+<body>
+   <div class="container">
+       <h1>Create Playlist</h1>
+    <form>
+      <div class="row">
+        <div class="col-25">
+          <label for="stitle">Song Title</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="stitle" name="songtitle" placeholder="Judul Lagu...">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="desc">Description</label>
+        </div>
+        <div class="col-75">
+          <textarea id="desc" name="description" placeholder="Write something about this song.." style="height:200px"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <input id="submitsong" type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <img alt="" style="width:100%" id="imageAlbum">
+        <div class="container">
+          <h2 id="songTitle">Song Title</h2>
+          <p class="title" id="artists">Artist</p>
+          <p id="albums">Albums</p>
+          <p><button class="button">Play Music</button></p>
+        </div>
+      </div>
+    </div>
+    
+
+</body>
+<script src="\week1 - homework 2\assets\js\app.js"></script>
+</html>
